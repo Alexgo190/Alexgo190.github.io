@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open-sans", sans-serif;
+}
+
+/*
+    COLOR : #faf1e4 , #cedebd , #9EB384 , #435334
+*/
+
+body {
+  /* DCC2B4 */
+  background-color: #abc0b7;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  width: 60%;
+  margin: 80px auto;
+  background-color: #faf1e4;
+  box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.32);
+}
+
+.wrapper .sidebar {
+  background-color: #9eb384;
+
+  top: 0;
+  left: 0;
+  width: 300px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.wrapper .sidebar .profile {
+  margin-bottom: 50px;
+}
+
+.wrapper .sidebar .profile p {
+  font-weight: 600;
+}
+
+.wrapper .sidebar .contact {
+  margin: 20px 0;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.wrapper .sidebar .telephone {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+
+  gap: 20px;
+}
+.wrapper .sidebar .email {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.wrapper .sidebar .github {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.wrapper .sidebar .github a {
+  color: #cedebd;
+}
+
+.wrapper .sidebar .instagram {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.wrapper .sidebar .instagram a {
+  color: #cedebd;
+}
+
+.wrapper .sidebar .location {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.wrapper .sidebar .image {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.wrapper .sidebar h3 {
+  color: #faf1e4;
+  margin-bottom: 10px;
+}
+
+.wrapper .sidebar p {
+  color: #cedebd;
+}
+
+.wrapper .sidebar .education {
+  margin: 30px 0;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.wrapper .sidebar .education ul {
+  color: #3b4b2c;
+  margin-top: 30px;
+  list-style: outside;
+}
+
+.wrapper .sidebar .education ul li {
+  color: #435334;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.wrapper .sidebar .education ul p {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.senior {
+  margin-bottom: 20px;
+}
+
+.univ {
+  margin-bottom: 20px;
+}
+
+.current {
+  margin-bottom: 20px;
+}
+
+.wrapper .sidebar .languages {
+  margin: 30px 0;
+  padding: 0 20px;
+  text-align: left;
+  list-style: none;
+}
+
+.indonesia {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.english {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.chinese {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+/* MAIN  */
+
+.wrapper .main {
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  position: relative;
+  width: 85%;
+  line-height: 1.5;
+}
+
+.wrapper .main h2 {
+  color: #9eb384;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.wrapper .main .profile {
+  color: #435334;
+  margin-bottom: 45px;
+}
+
+.internship {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  margin-bottom: 20px;
+}
+
+.internship h3 {
+  color: #435334;
+}
+.internship span {
+  color: #435334;
+}
+
+.experience {
+  color: #435334;
+  margin-bottom: 45px;
+}
+
+.experience ul {
+  padding-left: 15px;
+}
+
+.experience li {
+  color: #435334;
+  margin-bottom: 10px;
+}
+
+.project {
+  color: #435334;
+  margin-bottom: 45px;
+}
+
+.project ul {
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.project li {
+  margin-bottom: 10px;
+}
+
+.certificates {
+  color: #435334;
+  margin-bottom: 45px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.images figcaption {
+  text-align: center;
+}
